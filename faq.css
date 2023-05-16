@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://www.kolpaper.com/wp-content/uploads/2019/12/football-wallpaper-4.jpg);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  dl {
+    margin-top: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Add hover effect */
+  dt:hover {
+    cursor: pointer;
+    color: blue;
+  }
+  
+  dd {
+    display: none;
+  }
+  
+  /* Show answer when question is hovered */
+  dt:hover + dd {
+    display: block;
+  }
+  
